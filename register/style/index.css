@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #dfe4ea;
+}
+.container {
+  margin: 0  auto;
+  margin-top: 30px;
+  width: 400px;
+  border-radius: 8px;
+  padding: 30px;
+  background-color: #fff;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-item {
+  margin-bottom: 20px;
+}
+.form-item:last-child {
+  margin: 0;
+}
+.txt-input {
+  outline: none;
+  width: 100%;
+  height: 40px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+.txt-input:focus {
+  border-color: #1e90ff;
+}
+select.txt-input {
+  height: 100px;
+}
+
+button {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #1e90ff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #70a1ff;
+}
+button:disabled {
+  background-color: #8090af;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.txt-input.code {
+  width: 150px;
+}
+textarea.txt-input {
+  resize: none;
+  height: 150px;
+}
+[id="policy"]+label {
+  color: #ccc;
+  font-size: 14px;
+  vertical-align: 1px;
+}
+
+[id="policy"]:checked+label {
+  color: #000;
+}
