@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 75px;
+  height: 48px;
+
+
+  background: url(../img/sprite.jpg) no-repeat  -284px -246px;
+}
